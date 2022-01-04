@@ -7,5 +7,14 @@ Materi 1 JSON
     - Number
     - NULL
 
-2.  JSON_encode() digunakan untuk mengubah data lain menjadi json
+2.  Untuk PHP
+    JSON_encode() digunakan untuk mengubah data lain menjadi json
     JSON_decode( ,true) digunakan untuk mengubah json menjadi array assosiatif
+
+3.  Untuk Javascript
+    JSON.stringify() digunakan untuk mengubah data lain menjadi json
+    JSON.parse() digunakan untuk mengubah json menjadi array assosiatif
+
+    Untuk mengakses JSON digunakan ajax
+        - XMLHTTP
+        - JQUERY
