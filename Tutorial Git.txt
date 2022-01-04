@@ -1,0 +1,55 @@
+Terdapat 3 area pada git
+1. Working Tree Area
+2. Staging Area
+3. Repository
+
+Langkah - langkah menggunakan git : 
+1. Perintah <git init> digunakan untuk menjadikan folder menjadi repo
+   - <git clone 'link_dari_github'> untuk mengclone / mendownload repo dari github (tidak terhubung secara remote)
+2. <git add .> digunakan untuk menambahkan semua file ke staging area dapat
+   juga menggunakan <git add index.html>
+3. <git commit -m "Message"> digunakan untuk melakukan commit  dan memindahkan dari staging    area ke repository
+4. <git commit -am "Message"> Cara lain commit dari staging area ke repository (status file 
+   sudah di add ke staging area / berstatus 'modified') 
+5. <git branch 'nama_branch'> membuat cabang atau branch
+6. <git checkout 'nama_branch'> atau <git checkout 'hash'> berpindah ke branch lain atau bisa    digunakan <git checkout -b 'nama_branch'> yang digunakan untuk create branch dan pindah ke    branch baru
+7. <git merge 'nama_branch_yang_dituju'> menggabungkan branch master dengan branch lain
+8. <git branch -d 'nama_branch'> menghapus branch yang sudah dimerged
+9. <git branch -D 'nama_branch'> menghapus branch yang belum dimerged
+-- Untuk github
+10. <git clone 'link_github'> untuk clone dari github (sudah terdapat readme)
+11. <git remote add 'nama_remote' 'link_dari_github'> untuk menambahkan remote / upload ke github
+12. <git push -u origin master> untuk push pertama kali ke github <git push> untuk melakukan push ke github
+
+Command lain :
+1.* <git status> untuk mengecek apa ada perubahaan atau tidak
+2. <git log> atau <git log -3> atau <git log -- index.html> digunakan untuk melihat perubahaan 
+   yang terjadi
+3. <git checkout 'kode_hash' -- 'nama_file'> Berfungsi untuk mengembalikan
+   file yang telah terhapus.
+4. <git branch> untuk melihat semua branch
+5.* <git log --all --decorate --oneline --graph> digunakan untuk melihat log dalam 1 baris
+6. <alias 'nama_alias'="'isi_perintah'"> digunakan untuk menambahkan alias / shortcut
+7. <git branch --merged> melihat branch yang sudah dimerge
+8. <q> keluar dari <git log>
+-- untuk github
+9. <git config --list> untuk melihat data atau user yang digunakan
+10. <git config --global user.name "namanya"> <git config --local user.name "namanya"> digunakan untuk setting nama
+11. <git config --global user.email "namanya"> <git config --local user.email "namanya"> digunakan untuk setting email
+12. <git remote> untuk melihat nama remote
+13. <git remote -v> untuk melihat link remote
+14. <git fetch> untuk mengecek yang ada di remote udah sampai mana 
+15. <git pull> untuk mengambil file dari remote
+16. <git push 'nama_remote' 'nama_branch'> digunakan untuk push branch ke remote
+
+NB :
+' dan <> = dihapus
+* = penting
+
+Jenis Merge : 
+1. Fast forward -> ada pathnya sehingga bisa langsung di merged
+2. Three-way merge/recursive -> tidak ada pathnya sehingga otomatis membuat commit baru
+
+Mengatasi three-way merge menggunakan git rebase :
+1. <git rebase 'nama_branch'> 
+NB : 2x rebase (dari a ke b dan b ke a)

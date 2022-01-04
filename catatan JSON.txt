@@ -1,0 +1,11 @@
+Materi 1 JSON 
+1. JSON dapat menampung tipe data sbb : 
+    - Boolean
+    - Array
+    - String
+    - Obejct
+    - Number
+    - NULL
+
+2.  JSON_encode() digunakan untuk mengubah data lain menjadi json
+    JSON_decode( ,true) digunakan untuk mengubah json menjadi array assosiatif

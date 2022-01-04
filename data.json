@@ -1,0 +1,30 @@
+[
+    {
+        "nama" : "M Darojatun Hogi",
+        "umur" : 22,
+        "npm" : "18081010088",
+        "status" : true,
+        "hobi" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Bu Yisti",
+            "pembimbing2" : "Bu Kartini"
+        }
+    },
+    {
+        "nama" : "M Darojatun Hogi",
+        "umur" : 22,
+        "npm" : "18081010088",
+        "status" : true,
+        "hobi" : [
+            "coding",
+            "gaming"
+        ],
+        "pembimbing" : {
+            "pembimbing1" : "Bu Yisti",
+            "pembimbing2" : "Bu Kartini"
+        }
+    }
+]
