@@ -21,3 +21,6 @@ Materi 1 JSON
 
 
 Materi 2 
+Pembuatan Website menggunakan JQUERY JSON ajax
+
+Ketika mengakses JSON diluar domain terdapat CORS (Cross Origin Resource Sharing) yang digunakan untuk memberi izin dalam mengakses JSON. Untuk melakukannya dibutuhkan Access-Control-Allow-Origin (biasanya terdapat pada file .htaccess / JSONP)
