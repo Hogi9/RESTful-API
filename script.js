@@ -23,7 +23,7 @@
 // xhr.open('GET','data.JSON',true);
 // xhr.send();
 
-//Mengubah JSON menjadi object menggunakan JQUERY, data otomatis menjadi object tanpa perlu di json.parse
-$.getJSON('data.json',function(data){
-    console.log(data);
-})
+// //Mengubah JSON menjadi object menggunakan JQUERY, data otomatis menjadi object tanpa perlu di json.parse
+// $.getJSON('data.json',function(data){
+//     console.log(data);
+// })
