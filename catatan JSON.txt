@@ -9,7 +9,7 @@ Materi 1 JSON
 
 2.  Untuk PHP
     JSON_encode() digunakan untuk mengubah data lain menjadi json
-    JSON_decode( ,true) digunakan untuk mengubah json menjadi array assosiatif
+    JSON_decode( ,true) digunakan untuk mengubah json menjadi array assosiatif, kalau tidak diisi menjadi object
 
 3.  Untuk Javascript
     JSON.stringify() digunakan untuk mengubah data lain menjadi json
