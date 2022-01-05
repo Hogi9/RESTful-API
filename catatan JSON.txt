@@ -40,3 +40,5 @@ Terdapat beberapa macam otentikasi :
 1. Tanpa Authentikasi
 2. Token / Key -> bisa publik tapi dibatasi (misalkan 1000x / hari)
 3. OAuth (Login seperti google, facebook, dsb)
+
+Percobaan pembuatan website dengan API JQuery Ajax
