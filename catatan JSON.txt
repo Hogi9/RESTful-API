@@ -24,3 +24,19 @@ Materi 2
 Pembuatan Website menggunakan JQUERY JSON ajax
 
 Ketika mengakses JSON diluar domain terdapat CORS (Cross Origin Resource Sharing) yang digunakan untuk memberi izin dalam mengakses JSON. Untuk melakukannya dibutuhkan Access-Control-Allow-Origin (biasanya terdapat pada file .htaccess / JSONP)
+
+
+Materi 3 
+Penjelasan Open API / Public API
+
+Penyedia API
+1. https://console.cloud.google.com/projectselector2/apis/dashboard?pli=1&supportedpurview=project
+2. https://developers.facebook.com/
+3. https://any-api.com/
+4. https://github.com/public-apis/public-apis
+5. https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA
+
+Terdapat beberapa macam otentikasi :
+1. Tanpa Authentikasi
+2. Token / Key -> bisa publik tapi dibatasi (misalkan 1000x / hari)
+3. OAuth (Login seperti google, facebook, dsb)
